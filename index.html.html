@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!-- saved from url=(0091)https://95287bf2-7567-4bd0-9b3b-b3c15342d2a2-%2D1749189600-%2D085c2456.preview.yourware.so/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishal Tool Hub</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="./all.min.css">
+<script src="./youware-lib.1747145198.js.download" id="yourware-lib"></script></head>
+<body>
+    <header>
+        <h1>Bishal Tool Hub</h1>
+        <p class="tagline">All the tools you need, in one place</p>
+    </header>
+
+    <div id="main-content">
+        <div class="search-filter-container">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for tools...">
+                <button id="search-button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="category-filter">
+                <button class="category-btn active" data-category="all">All Tools</button>
+                <button class="category-btn" data-category="media">Media</button>
+                <button class="category-btn" data-category="calculators">Calculators</button>
+                <button class="category-btn" data-category="text">Text Tools</button>
+                <button class="category-btn" data-category="converters">Converters</button>
+            </div>
+        </div>
+
+        <section id="featured-tools">
+            <h2 class="section-title">Popular Tools</h2>
+            <div class="featured-tools-grid">
+                <div class="feature-card" data-tool="image-converter">
+                    <div class="feature-icon"><i class="fas fa-image"></i></div>
+                    <h3>Image Converter</h3>
+                    <button class="feature-btn">Open</button>
+                </div>
+                <div class="feature-card" data-tool="password-generator">
+                    <div class="feature-icon"><i class="fas fa-key"></i></div>
+                    <h3>Password Generator</h3>
+                    <button class="feature-btn">Open</button>
+                </div>
+                <div class="feature-card" data-tool="unit-converter">
+                    <div class="feature-icon"><i class="fas fa-exchange-alt"></i></div>
+                    <h3>Unit Converter</h3>
+                    <button class="feature-btn">Open</button>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="section-title">All Tools</h2>
+        <div id="tools-grid">
+            <div class="tool-card" data-tool="image-converter" data-category="media">
+                <div class="tool-icon"><i class="fas fa-image"></i></div>
+                <h2>Image Converter</h2>
+                <p>Convert between JPG, PNG, and WEBP formats</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="image-compressor" data-category="media">
+                <div class="tool-icon"><i class="fas fa-compress"></i></div>
+                <h2>Image Compressor</h2>
+                <p>Compress image file size with quality settings</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="image-cropper" data-category="media">
+                <div class="tool-icon"><i class="fas fa-crop"></i></div>
+                <h2>Image Cropper</h2>
+                <p>Upload and crop images with preview</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="video-converter" data-category="media">
+                <div class="tool-icon"><i class="fas fa-video"></i></div>
+                <h2>Video Converter</h2>
+                <p>Convert between MP4 and WebM formats</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="audio-converter" data-category="media">
+                <div class="tool-icon"><i class="fas fa-music"></i></div>
+                <h2>Audio Converter</h2>
+                <p>Convert between MP3 and WAV formats</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="audio-trimmer" data-category="media">
+                <div class="tool-icon"><i class="fas fa-cut"></i></div>
+                <h2>Audio Trimmer</h2>
+                <p>Trim audio clips with start/end time controls</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="age-calculator" data-category="calculators">
+                <div class="tool-icon"><i class="fas fa-calendar-alt"></i></div>
+                <h2>Age Calculator</h2>
+                <p>Calculate age in years, months, and days</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="emi-calculator" data-category="calculators">
+                <div class="tool-icon"><i class="fas fa-coins"></i></div>
+                <h2>EMI Calculator</h2>
+                <p>Calculate monthly EMI and total interest</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="sip-calculator" data-category="calculators">
+                <div class="tool-icon"><i class="fas fa-chart-line"></i></div>
+                <h2>SIP Calculator</h2>
+                <p>Calculate future value of SIP investments</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="qr-generator" data-category="converters">
+                <div class="tool-icon"><i class="fas fa-qrcode"></i></div>
+                <h2>QR Code Generator</h2>
+                <p>Generate downloadable QR codes from text</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="password-generator" data-category="text">
+                <div class="tool-icon"><i class="fas fa-key"></i></div>
+                <h2>Password Generator</h2>
+                <p>Generate secure passwords with custom options</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="word-counter" data-category="text">
+                <div class="tool-icon"><i class="fas fa-font"></i></div>
+                <h2>Word Counter</h2>
+                <p>Count words, characters, and reading time</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="base64-encoder" data-category="text">
+                <div class="tool-icon"><i class="fas fa-code"></i></div>
+                <h2>Base64 Encoder/Decoder</h2>
+                <p>Convert text to Base64 and vice versa</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="color-picker" data-category="converters">
+                <div class="tool-icon"><i class="fas fa-palette"></i></div>
+                <h2>Color Picker Tool</h2>
+                <p>Pick colors and display HEX, RGB, HSL values</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="text-to-speech" data-category="text">
+                <div class="tool-icon"><i class="fas fa-volume-up"></i></div>
+                <h2>Text to Speech</h2>
+                <p>Convert text to speech using browser API</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="speech-to-text" data-category="text">
+                <div class="tool-icon"><i class="fas fa-microphone"></i></div>
+                <h2>Speech to Text</h2>
+                <p>Convert voice to text using microphone</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="json-formatter" data-category="text">
+                <div class="tool-icon"><i class="fas fa-brackets-curly"></i></div>
+                <h2>JSON Formatter</h2>
+                <p>Format and validate JSON with error handling</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="unit-converter" data-category="converters">
+                <div class="tool-icon"><i class="fas fa-exchange-alt"></i></div>
+                <h2>Unit Converter</h2>
+                <p>Convert between different measurement units</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="bmi-calculator" data-category="calculators">
+                <div class="tool-icon"><i class="fas fa-weight"></i></div>
+                <h2>BMI Calculator</h2>
+                <p>Calculate BMI and health category</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+
+            <div class="tool-card" data-tool="timer-stopwatch" data-category="converters">
+                <div class="tool-icon"><i class="fas fa-stopwatch"></i></div>
+                <h2>Timer / Stopwatch</h2>
+                <p>Simple timer and stopwatch functionality</p>
+                <button><i class="fas fa-arrow-right"></i> Open Tool</button>
+            </div>
+        </div>
+
+        <div id="tool-interface" style="display: none;">
+            <div class="tool-header">
+                <button id="back-btn"><i class="fas fa-arrow-left"></i> Back to Tools</button>
+                <h2 id="tool-title"></h2>
+            </div>
+            <div id="tool-content">
+                <!-- Tool content will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <div id="about-section" style="display: none;">
+            <div class="tool-header">
+                <button id="about-back-btn"><i class="fas fa-arrow-left"></i> Back to Tools</button>
+                <h2>About the Author</h2>
+            </div>
+            <div class="about-content">
+                <div class="author-profile">
+                    <div class="profile-image">
+                        <img src="./jbyab85d0t.jpg" alt="Bishal Chaudhary" class="profile-photo">
+                    </div>
+                    <div class="profile-info">
+                        <h1>Bishal Chaudhary</h1>
+                        <div class="profile-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Based in: Nepal</p>
+                            <p><i class="fas fa-graduation-cap"></i> Field: Technical Education (IT / Web / Tech-related learning)</p>
+                            <p><i class="fas fa-seedling"></i> Learning, building, and growing every day.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="author-bio">
+                    <p>Hello! I'm Bishal Chaudhary, a passionate technical student from Nepal. I'm deeply interested in technology, innovation, and creating digital solutions that make life easier.</p>
+                    
+                    <p>From a young age, I've been fascinated by how websites, apps, and online platforms work. That curiosity has led me to explore web development, entrepreneurship, and digital tools. This website is a reflection of my learning journey, my projects, and the vision I have for the future.</p>
+                    
+                    <p>In addition to tech, I also have a deep love for my culture, community, and the idea of using technology to solve real-life problems in Nepal.</p>
+                    
+                    <p>Thank you for visiting my website and being part of my journey!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="author-introduction">
+        <div class="introduction-content">
+            <div class="author-image">
+                <img src="./jbyab85d0t.jpg" alt="Bishal Chaudhary">
+            </div>
+            <div class="author-details">
+                <h2>Bishal Chaudhary</h2>
+                <p class="author-title">Technical Student &amp; Web Developer</p>
+                <p class="author-description">Hello! I'm a passionate tech enthusiast from Nepal, creating tools that make digital tasks easier. This hub represents my journey in web development and problem-solving through technology.</p>
+                <div class="author-social">
+                    <a href="https://95287bf2-7567-4bd0-9b3b-b3c15342d2a2--1749189600--085c2456.preview.yourware.so/#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://95287bf2-7567-4bd0-9b3b-b3c15342d2a2--1749189600--085c2456.preview.yourware.so/#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://95287bf2-7567-4bd0-9b3b-b3c15342d2a2--1749189600--085c2456.preview.yourware.so/#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://95287bf2-7567-4bd0-9b3b-b3c15342d2a2--1749189600--085c2456.preview.yourware.so/#" id="read-more-about">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner-ad-section">
+        <div class="ad-container">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : 'aadc5e3632c65e1af61af4eb3892c125',
+                    'format' : 'iframe',
+                    'height' : 250,
+                    'width' : 300,
+                    'params' : {}
+                };
+            </script>
+            <script></script><iframe allowtransparency="true" scrolling="no" frameborder="0" framespacing="0" width="300" height="250" src="./saved_resource.html"></iframe><script type="text/javascript" src="./invoke.js.download" class="atScriptaadc5e3632c65e1af61af4eb3892c125_0"></script>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Bishal Chaudhary. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://95287bf2-7567-4bd0-9b3b-b3c15342d2a2--1749189600--085c2456.preview.yourware.so/#" class="footer-link" id="about-link">About</a>
+                <a href="https://95287bf2-7567-4bd0-9b3b-b3c15342d2a2--1749189600--085c2456.preview.yourware.so/#" class="footer-link">Privacy Policy</a>
+                <a href="https://95287bf2-7567-4bd0-9b3b-b3c15342d2a2--1749189600--085c2456.preview.yourware.so/#" class="footer-link">Terms of Use</a>
+                <a href="https://95287bf2-7567-4bd0-9b3b-b3c15342d2a2--1749189600--085c2456.preview.yourware.so/#" class="footer-link">Contact</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./script.js.download"></script>
+
+</body></html>
